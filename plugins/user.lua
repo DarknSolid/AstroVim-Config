@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+    {"ThePrimeagen/vim-be-good", lazy = false},
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      config = function()
+        require("catppuccin").setup {}
+      end,
+    },
 }
